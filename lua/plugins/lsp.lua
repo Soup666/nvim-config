@@ -12,5 +12,6 @@ return {
     mason.setup()
 
     lspconfig.rust_analyzer.setup({})
+    lspconfig.lua_ls.setup({})
   end,
 }
